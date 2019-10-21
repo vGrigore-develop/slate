@@ -216,9 +216,9 @@ sanitize() {
 
 parse_args "$@"
 
-if [[ $1 = --source-only ]]; then
+if [[ ${source_only} ]]; then
   run_build
-elif [[ $1 = --push-only ]]; then
+elif [[ ${push_only} ]]; then
   main "$@"
 else
   run_build
