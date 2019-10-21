@@ -36,7 +36,7 @@ parse_args() {
   while : ; do
     if [[ $1 = "-h" || $1 = "--help" ]]; then
       echo "$help_message"
-      return 0
+      exit 0
     elif [[ $1 = "-v" || $1 = "--verbose" ]]; then
       verbose=true
       shift
@@ -49,10 +49,21 @@ parse_args() {
     elif [[ $1 = "-n" || $1 = "--no-hash" ]]; then
       GIT_DEPLOY_APPEND_HASH=false
       shift
+    elif [[ $1 = "--source-only" ]]; then
+      source_only=true
+      shift
+    elif [[ $1 = "--push-only" ]]; then
+      push_only=true
+      shift
     else
       break
     fi
   done
+
+  if [ ${source_only} ] && [ ${push_only} ]; then
+    >&2 echo "You can only specify source_only or push_only"
+    exit 1
+  fi
 
   # Set internal option vars from the environment and arg flags. All internal
   # vars should be declared here, with sane defaults if applicable.
@@ -73,8 +84,6 @@ parse_args() {
 }
 
 main() {
-  parse_args "$@"
-
   enable_expanded_output
 
   if ! git diff --exit-code --quiet --cached; then
@@ -204,6 +213,8 @@ filter() {
 sanitize() {
   "$@" 2> >(filter 1>&2) | filter
 }
+
+parse_args "$@"
 
 if [[ $1 = --source-only ]]; then
   run_build
