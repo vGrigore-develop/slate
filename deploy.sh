@@ -61,7 +61,7 @@ parse_args() {
   done
 
   if [ ${source_only} ] && [ ${push_only} ]; then
-    >&2 echo "You can only specify source_only or push_only"
+    >&2 echo "You can only specify one of --source-only or --push-only"
     exit 1
   fi
 
