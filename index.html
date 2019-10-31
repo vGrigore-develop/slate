@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>API Reference</title>
+    <title>Community API</title>
 
     <style>
       .highlight table td { padding: 5px; }
@@ -196,25 +196,22 @@
   color: #f92672;
 }
     </style>
-    <link href="stylesheets/screen.css" rel="stylesheet" media="screen" />
-    <link href="stylesheets/print.css" rel="stylesheet" media="print" />
-      <script src="javascripts/all.js"></script>
+    <link href="stylesheets/screen-70e7a276.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/print-bccf8c07.css" rel="stylesheet" media="print" />
+      <script src="javascripts/all-c5541673.js"></script>
   </head>
 
-  <body class="index" data-languages="[&quot;shell&quot;,&quot;ruby&quot;,&quot;python&quot;,&quot;javascript&quot;]">
+  <body class="index" data-languages="[&quot;shell&quot;]">
     <a href="#" id="nav-button">
       <span>
         NAV
-        <img src="images/navbar.png" alt="Navbar" />
+        <img src="images/navbar-cad8cdcb.png" alt="Navbar" />
       </span>
     </a>
     <div class="toc-wrapper">
-      <img src="images/logo.png" class="logo" alt="Logo" />
+      <img src="images/logo-1e815a84.png" class="logo" alt="Logo" />
         <div class="lang-selector">
-              <a href="#" data-language-name="shell">shell</a>
-              <a href="#" data-language-name="ruby">ruby</a>
-              <a href="#" data-language-name="python">python</a>
-              <a href="#" data-language-name="javascript">javascript</a>
+              <a href="#" data-language-name="shell">cURL</a>
         </div>
         <div class="search">
           <input type="text" class="search" id="input-search" placeholder="Search">
@@ -228,16 +225,370 @@
             <a href="#authentication" class="toc-h1 toc-link" data-title="Authentication">Authentication</a>
           </li>
           <li>
-            <a href="#kittens" class="toc-h1 toc-link" data-title="Kittens">Kittens</a>
+            <a href="#enterprise-community-settings" class="toc-h1 toc-link" data-title="Enterprise Community Settings">Enterprise Community Settings</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#get-all-kittens" class="toc-h2 toc-link" data-title="Get All Kittens">Get All Kittens</a>
+                    <a href="#api-frontend-v1-community_owner_settings" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/COMMUNITY_OWNER_SETTINGS">/API/FRONTEND/V1/COMMUNITY_OWNER_SETTINGS</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#corporate-connector" class="toc-h1 toc-link" data-title="Corporate Connector">Corporate Connector</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-v1-deliver-invoice" class="toc-h2 toc-link" data-title="/API/V1/DELIVER/INVOICE">/API/V1/DELIVER/INVOICE</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#micro-frontends" class="toc-h1 toc-link" data-title="Micro Frontends">Micro Frontends</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-frontend-v1-me-micro_frontends" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/MICRO_FRONTENDS">/API/FRONTEND/V1/ME/MICRO_FRONTENDS</a>
                   </li>
                   <li>
-                    <a href="#get-a-specific-kitten" class="toc-h2 toc-link" data-title="Get a Specific Kitten">Get a Specific Kitten</a>
+                    <a href="#api-frontend-v1-me-micro_frontends-token" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/MICRO_FRONTENDS/TOKEN">/API/FRONTEND/V1/ME/MICRO_FRONTENDS/TOKEN</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#pay-incoming-documents" class="toc-h1 toc-link" data-title="Pay Incoming Documents">Pay Incoming Documents</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-archive-pay_incoming_documents-bulk-bulkaction" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/BULK/{BULKACTION}">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/BULK/{BULKACTION}</a>
                   </li>
                   <li>
-                    <a href="#delete-a-specific-kitten" class="toc-h2 toc-link" data-title="Delete a Specific Kitten">Delete a Specific Kitten</a>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-archive-pay_incoming_documents-validate" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/VALIDATE">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/VALIDATE</a>
+                  </li>
+                  <li>
+                    <a href="#api-vas-v1-payments-caf_failure_callback" class="toc-h2 toc-link" data-title="/API/VAS/V1/PAYMENTS/CAF_FAILURE_CALLBACK">/API/VAS/V1/PAYMENTS/CAF_FAILURE_CALLBACK</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-archive-pay_incoming_documents-bank_statements" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/BANK_STATEMENTS">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/BANK_STATEMENTS</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-archive-pay_incoming_documents-bank_statements-id" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/BANK_STATEMENTS/{ID}">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/BANK_STATEMENTS/{ID}</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-archive-pay_incoming_documents-bank_statements-bulk_delivery" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/BANK_STATEMENTS/BULK_DELIVERY">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/BANK_STATEMENTS/BULK_DELIVERY</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-archive-pay_incoming_documents-activity_log" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/ACTIVITY_LOG">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/ACTIVITY_LOG</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-value_added_services-online_collect_services-payment_accounts" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/VALUE_ADDED_SERVICES/ONLINE_COLLECT_SERVICES/PAYMENT_ACCOUNTS">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/VALUE_ADDED_SERVICES/ONLINE_COLLECT_SERVICES/PAYMENT_ACCOUNTS</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-value_added_services-online_collect_services-payment_accounts_transactions" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/VALUE_ADDED_SERVICES/ONLINE_COLLECT_SERVICES/PAYMENT_ACCOUNTS_TRANSACTIONS">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/VALUE_ADDED_SERVICES/ONLINE_COLLECT_SERVICES/PAYMENT_ACCOUNTS_TRANSACTIONS</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-archive-pay_incoming_documents-activity_log-id" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/ACTIVITY_LOG/{ID}">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/ACTIVITY_LOG/{ID}</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#archive-connector" class="toc-h1 toc-link" data-title="Archive Connector">Archive Connector</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-archive_connector-v1-archive-ap" class="toc-h2 toc-link" data-title="/API/ARCHIVE_CONNECTOR/V1/ARCHIVE/AP">/API/ARCHIVE_CONNECTOR/V1/ARCHIVE/AP</a>
+                  </li>
+                  <li>
+                    <a href="#api-archive_connector-v1-archive-ar" class="toc-h2 toc-link" data-title="/API/ARCHIVE_CONNECTOR/V1/ARCHIVE/AR">/API/ARCHIVE_CONNECTOR/V1/ARCHIVE/AR</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#administrative-connector-enterprises" class="toc-h1 toc-link" data-title="Administrative Connector - enterprises">Administrative Connector - enterprises</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-administrative_connector-enterprises" class="toc-h2 toc-link" data-title="/API/ADMINISTRATIVE_CONNECTOR/ENTERPRISES">/API/ADMINISTRATIVE_CONNECTOR/ENTERPRISES</a>
+                  </li>
+                  <li>
+                    <a href="#api-administrative_connector-enterprises-status" class="toc-h2 toc-link" data-title="/API/ADMINISTRATIVE_CONNECTOR/ENTERPRISES/STATUS">/API/ADMINISTRATIVE_CONNECTOR/ENTERPRISES/STATUS</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#administrative-connector-users" class="toc-h1 toc-link" data-title="Administrative Connector - users">Administrative Connector - users</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-administrative_connector-users" class="toc-h2 toc-link" data-title="/API/ADMINISTRATIVE_CONNECTOR/USERS">/API/ADMINISTRATIVE_CONNECTOR/USERS</a>
+                  </li>
+                  <li>
+                    <a href="#api-administrative_connector-users-reinvite" class="toc-h2 toc-link" data-title="/API/ADMINISTRATIVE_CONNECTOR/USERS/REINVITE">/API/ADMINISTRATIVE_CONNECTOR/USERS/REINVITE</a>
+                  </li>
+                  <li>
+                    <a href="#api-administrative_connector-users-remove_enterprise" class="toc-h2 toc-link" data-title="/API/ADMINISTRATIVE_CONNECTOR/USERS/REMOVE_ENTERPRISE">/API/ADMINISTRATIVE_CONNECTOR/USERS/REMOVE_ENTERPRISE</a>
+                  </li>
+                  <li>
+                    <a href="#api-administrative_connector-users-status" class="toc-h2 toc-link" data-title="/API/ADMINISTRATIVE_CONNECTOR/USERS/STATUS">/API/ADMINISTRATIVE_CONNECTOR/USERS/STATUS</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#tasks-coala" class="toc-h1 toc-link" data-title="Tasks Coala">Tasks Coala</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-administrative_connector-enterprises-enterpriseid-tasks-id" class="toc-h2 toc-link" data-title="/API/ADMINISTRATIVE_CONNECTOR/ENTERPRISES/{ENTERPRISEID}/TASKS/{ID}">/API/ADMINISTRATIVE_CONNECTOR/ENTERPRISES/{ENTERPRISEID}/TASKS/{ID}</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#integrated-ocr" class="toc-h1 toc-link" data-title="Integrated OCR">Integrated OCR</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-integrated_ocr_enabled" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INTEGRATED_OCR_ENABLED">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INTEGRATED_OCR_ENABLED</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#accounts-payable-v1" class="toc-h1 toc-link" data-title="Accounts Payable v1">Accounts Payable v1</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-incoming_documents-file_upload" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INCOMING_DOCUMENTS/FILE_UPLOAD">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INCOMING_DOCUMENTS/FILE_UPLOAD</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-sepa-download-filename-path" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SEPA/DOWNLOAD/{FILENAME}/*PATH">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SEPA/DOWNLOAD/{FILENAME}/*PATH</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-incoming_draft_documents-id" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INCOMING_DRAFT_DOCUMENTS/{ID}">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INCOMING_DRAFT_DOCUMENTS/{ID}</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-incoming_draft_documents-id-archive" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INCOMING_DRAFT_DOCUMENTS/{ID}/ARCHIVE">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INCOMING_DRAFT_DOCUMENTS/{ID}/ARCHIVE</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-incoming_draft_documents-id-supplier" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INCOMING_DRAFT_DOCUMENTS/{ID}/SUPPLIER">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INCOMING_DRAFT_DOCUMENTS/{ID}/SUPPLIER</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-incoming_documents-id" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INCOMING_DOCUMENTS/{ID}">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INCOMING_DOCUMENTS/{ID}</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#accounts-payable-v2" class="toc-h1 toc-link" data-title="Accounts Payable v2">Accounts Payable v2</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-v2-com-enterprises-enterpriseid-documents" class="toc-h2 toc-link" data-title="/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/DOCUMENTS">/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/DOCUMENTS</a>
+                  </li>
+                  <li>
+                    <a href="#api-v2-com-enterprises-enterpriseid-tasks-id-supplier" class="toc-h2 toc-link" data-title="/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/TASKS/{ID}/SUPPLIER">/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/TASKS/{ID}/SUPPLIER</a>
+                  </li>
+                  <li>
+                    <a href="#api-v2-com-enterprises-enterpriseid-tasks-compact" class="toc-h2 toc-link" data-title="/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/TASKS/COMPACT">/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/TASKS/COMPACT</a>
+                  </li>
+                  <li>
+                    <a href="#api-v2-com-enterprises-enterpriseid-documents-id" class="toc-h2 toc-link" data-title="/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/DOCUMENTS/{ID}">/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/DOCUMENTS/{ID}</a>
+                  </li>
+                  <li>
+                    <a href="#api-v2-com-enterprises-enterpriseid-multiple_files_intake" class="toc-h2 toc-link" data-title="/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/MULTIPLE_FILES_INTAKE">/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/MULTIPLE_FILES_INTAKE</a>
+                  </li>
+                  <li>
+                    <a href="#api-v2-com-enterprises-enterpriseid-multiple_files_intake-id" class="toc-h2 toc-link" data-title="/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/MULTIPLE_FILES_INTAKE/{ID}">/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/MULTIPLE_FILES_INTAKE/{ID}</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#subscription-notifications" class="toc-h1 toc-link" data-title="Subscription Notifications">Subscription Notifications</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-frontend-v1-subscription_notifications" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/SUBSCRIPTION_NOTIFICATIONS">/API/FRONTEND/V1/SUBSCRIPTION_NOTIFICATIONS</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#subscriptions" class="toc-h1 toc-link" data-title="Subscriptions">Subscriptions</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-subscriptions-active" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/ACTIVE">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/ACTIVE</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-subscriptions-active-features-featuretype" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/ACTIVE/FEATURES/{FEATURETYPE}">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/ACTIVE/FEATURES/{FEATURETYPE}</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-subscriptions-active-all_features" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/ACTIVE/ALL_FEATURES">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/ACTIVE/ALL_FEATURES</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-subscriptions-active-bundle_usage" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/ACTIVE/BUNDLE_USAGE">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/ACTIVE/BUNDLE_USAGE</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-subscriptions-index_by_group" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/INDEX_BY_GROUP">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/INDEX_BY_GROUP</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-subscriptions" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-subscriptions-cancel" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/CANCEL">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/CANCEL</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#translations" class="toc-h1 toc-link" data-title="Translations">Translations</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#i18n-locale" class="toc-h2 toc-link" data-title="/I18N/{LOCALE}">/I18N/{LOCALE}</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#enterprises" class="toc-h1 toc-link" data-title="Enterprises">Enterprises</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-permissions" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/PERMISSIONS">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/PERMISSIONS</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-tasks-id" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/TASKS/{ID}">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/TASKS/{ID}</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#archive-outgoing" class="toc-h1 toc-link" data-title="Archive Outgoing">Archive Outgoing</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-archive-outgoing-export" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/OUTGOING/EXPORT">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/OUTGOING/EXPORT</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-outgoing_documents-id-archive" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/OUTGOING_DOCUMENTS/{ID}/ARCHIVE">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/OUTGOING_DOCUMENTS/{ID}/ARCHIVE</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#sessions" class="toc-h1 toc-link" data-title="Sessions">Sessions</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-frontend-v1-users-login" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/USERS/LOGIN">/API/FRONTEND/V1/USERS/LOGIN</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#enterprises-settings" class="toc-h1 toc-link" data-title="Enterprises Settings">Enterprises Settings</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-frontend-v1-me-settings-enterprises-enterpriseid-payment_services" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/SETTINGS/ENTERPRISES/{ENTERPRISEID}/PAYMENT_SERVICES">/API/FRONTEND/V1/ME/SETTINGS/ENTERPRISES/{ENTERPRISEID}/PAYMENT_SERVICES</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#enterprises-frontend" class="toc-h1 toc-link" data-title="Enterprises frontend">Enterprises frontend</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-id-update_archive_only_enterprise" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ID}/UPDATE_ARCHIVE_ONLY_ENTERPRISE">/API/FRONTEND/V1/ME/ENTERPRISES/{ID}/UPDATE_ARCHIVE_ONLY_ENTERPRISE</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#toast-notifications-frontend" class="toc-h1 toc-link" data-title="Toast Notifications Frontend">Toast Notifications Frontend</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-frontend-v1-me-toast_notifications" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/TOAST_NOTIFICATIONS">/API/FRONTEND/V1/ME/TOAST_NOTIFICATIONS</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#toast-notifications-coala" class="toc-h1 toc-link" data-title="Toast Notifications Coala">Toast Notifications Coala</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-administrative_connector-toast_notifications" class="toc-h2 toc-link" data-title="/API/ADMINISTRATIVE_CONNECTOR/TOAST_NOTIFICATIONS">/API/ADMINISTRATIVE_CONNECTOR/TOAST_NOTIFICATIONS</a>
+                  </li>
+                  <li>
+                    <a href="#api-administrative_connector-toast_notifications-id" class="toc-h2 toc-link" data-title="/API/ADMINISTRATIVE_CONNECTOR/TOAST_NOTIFICATIONS/{ID}">/API/ADMINISTRATIVE_CONNECTOR/TOAST_NOTIFICATIONS/{ID}</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#enterprises-api" class="toc-h1 toc-link" data-title="Enterprises API">Enterprises API</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-vas-v1-enterprises-id" class="toc-h2 toc-link" data-title="/API/VAS/V1/ENTERPRISES/{ID}">/API/VAS/V1/ENTERPRISES/{ID}</a>
+                  </li>
+                  <li>
+                    <a href="#api-vas-v1-enterprises-id-documents-filter" class="toc-h2 toc-link" data-title="/API/VAS/V1/ENTERPRISES/{ID}/DOCUMENTS/FILTER">/API/VAS/V1/ENTERPRISES/{ID}/DOCUMENTS/FILTER</a>
+                  </li>
+                  <li>
+                    <a href="#api-vas-v1-enterprises-id-documents-document_id-reconcile" class="toc-h2 toc-link" data-title="/API/VAS/V1/ENTERPRISES/{ID}/DOCUMENTS/{DOCUMENT_ID}/RECONCILE">/API/VAS/V1/ENTERPRISES/{ID}/DOCUMENTS/{DOCUMENT_ID}/RECONCILE</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#draft-document-tasks-controller" class="toc-h1 toc-link" data-title="Draft Document Tasks Controller">Draft Document Tasks Controller</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-vas-v1-draft_document_tasks-taskid" class="toc-h2 toc-link" data-title="/API/VAS/V1/DRAFT_DOCUMENT_TASKS/{TASKID}">/API/VAS/V1/DRAFT_DOCUMENT_TASKS/{TASKID}</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#show-vas-status" class="toc-h1 toc-link" data-title="Show VAS Status">Show VAS Status</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-vas-v1-communities-communityid-show_vas_status" class="toc-h2 toc-link" data-title="/API/VAS/V1/COMMUNITIES/{COMMUNITYID}/SHOW_VAS_STATUS">/API/VAS/V1/COMMUNITIES/{COMMUNITYID}/SHOW_VAS_STATUS</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#paymail-direct" class="toc-h1 toc-link" data-title="Paymail Direct">Paymail Direct</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-paymail_direct-select_all" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/PAYMAIL_DIRECT/SELECT_ALL">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/PAYMAIL_DIRECT/SELECT_ALL</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-paymail_direct-id-mark_as_will_not_be_paid" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/PAYMAIL_DIRECT/{ID}/MARK_AS_WILL_NOT_BE_PAID">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/PAYMAIL_DIRECT/{ID}/MARK_AS_WILL_NOT_BE_PAID</a>
+                  </li>
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-paymail_direct-bulk-download_xls" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/PAYMAIL_DIRECT/BULK/DOWNLOAD_XLS">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/PAYMAIL_DIRECT/BULK/DOWNLOAD_XLS</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#paymail-direct-archive" class="toc-h1 toc-link" data-title="Paymail Direct Archive">Paymail Direct Archive</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-archive-paymail_direct-bulk-download_xls" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAYMAIL_DIRECT/BULK/DOWNLOAD_XLS">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAYMAIL_DIRECT/BULK/DOWNLOAD_XLS</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#accounts-receivable" class="toc-h1 toc-link" data-title="Accounts Receivable">Accounts Receivable</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-outgoing_documents-bulk-archive_outgoing_documents" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/OUTGOING_DOCUMENTS/BULK/ARCHIVE_OUTGOING_DOCUMENTS">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/OUTGOING_DOCUMENTS/BULK/ARCHIVE_OUTGOING_DOCUMENTS</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#totals" class="toc-h1 toc-link" data-title="Totals">Totals</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-totals" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/TOTALS">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/TOTALS</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#document-center" class="toc-h1 toc-link" data-title="Document Center">Document Center</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-frontend-v1-me-enterprises-enterpriseid-document_center-tasks" class="toc-h2 toc-link" data-title="/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/DOCUMENT_CENTER/TASKS">/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/DOCUMENT_CENTER/TASKS</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#application-bookmarks" class="toc-h1 toc-link" data-title="Application Bookmarks">Application Bookmarks</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-v1-bookmarks" class="toc-h2 toc-link" data-title="/API/V1/BOOKMARKS">/API/V1/BOOKMARKS</a>
+                  </li>
+                  <li>
+                    <a href="#api-v1-bookmarks-sort" class="toc-h2 toc-link" data-title="/API/V1/BOOKMARKS/SORT">/API/V1/BOOKMARKS/SORT</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#universal-connector" class="toc-h1 toc-link" data-title="Universal Connector">Universal Connector</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#api-universal_connector-v1-uc-ap" class="toc-h2 toc-link" data-title="/api/universal_connector/v1/uc/ap">/api/universal_connector/v1/uc/ap</a>
+                  </li>
+                  <li>
+                    <a href="#api-universal_connector-v1-uc-ar" class="toc-h2 toc-link" data-title="/api/universal_connector/v1/uc/ar">/api/universal_connector/v1/uc/ar</a>
                   </li>
               </ul>
           </li>
@@ -247,191 +598,5227 @@
       </ul>
         <ul class="toc-footer">
             <li><a href='#'>Sign Up for a Developer Key</a></li>
-            <li><a href='https://github.com/lord/slate'>Documentation Powered by Slate</a></li>
+            <li><a href='https://github.com/lavkumarv'>Documentation Powered by lav</a></li>
         </ul>
     </div>
     <div class="page-wrapper">
       <div class="dark-box"></div>
       <div class="content">
         <h1 id='introduction'>Introduction</h1>
-<p>Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.</p>
+<p>This is the community API. </p>
 
-<p>We have language bindings in Shell, Ruby, Python, and JavaScript! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.</p>
+<p><strong>Version:</strong> Community::VERSION</p>
 
-<p>This example API documentation page was created with <a href="https://github.com/lord/slate">Slate</a>. Feel free to edit it and use it as a base for your own API&#39;s documentation.</p>
+<p><a href="http://swagger.io">Find out more about Swagger</a> </p>
 <h1 id='authentication'>Authentication</h1>
-<blockquote>
-<p>To authorize, use this code:</p>
-</blockquote>
-<pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-</code></pre><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-</code></pre><pre class="highlight shell tab-shell"><code><span class="c"># With shell, you can just pass the correct header with each request</span>
-curl <span class="s2">"api_endpoint_here"</span>
-  -H <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre><pre class="highlight javascript tab-javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
-</code></pre>
-<blockquote>
-<p>Make sure to replace <code>meowmeowmeow</code> with your API key.</p>
-</blockquote>
-
-<p>Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our <a href="http://example.com/developers">developer portal</a>.</p>
-
-<p>Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:</p>
-
-<p><code>Authorization: meowmeowmeow</code></p>
-
-<aside class="notice">
-You must replace <code>meowmeowmeow</code> with your personal API key.
-</aside>
-<h1 id='kittens'>Kittens</h1><h2 id='get-all-kittens'>Get All Kittens</h2><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">get</span>
-</code></pre><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="o">.</span><span class="n">kittens</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
-</code></pre><pre class="highlight shell tab-shell"><code>curl <span class="s2">"http://example.com/api/kittens"</span>
-  -H <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre><pre class="highlight javascript tab-javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">kittens</span> <span class="o">=</span> <span class="nx">api</span><span class="p">.</span><span class="nx">kittens</span><span class="p">.</span><span class="nx">get</span><span class="p">();</span>
-</code></pre>
-<blockquote>
-<p>The above command returns JSON structured like this:</p>
-</blockquote>
-<pre class="highlight json tab-json"><code><span class="p">[</span><span class="w">
-  </span><span class="p">{</span><span class="w">
-    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Fluffums"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"calico"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">7</span><span class="w">
-  </span><span class="p">},</span><span class="w">
-  </span><span class="p">{</span><span class="w">
-    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Max"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unknown"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
-  </span><span class="p">}</span><span class="w">
-</span><span class="p">]</span><span class="w">
-</span></code></pre>
-<p>This endpoint retrieves all kittens.</p>
-<h3 id='http-request'>HTTP Request</h3>
-<p><code>GET http://example.com/api/kittens</code></p>
-<h3 id='query-parameters'>Query Parameters</h3>
 <table><thead>
 <tr>
-<th>Parameter</th>
-<th>Default</th>
+<th>apiKey</th>
+<th><em>Bearer</em></th>
+</tr>
+</thead><tbody>
+</tbody></table>
+
+<table><thead>
+<tr>
+<th>apiKey</th>
+<th><em>api_key</em></th>
+</tr>
+</thead><tbody>
+</tbody></table>
+
+<table><thead>
+<tr>
+<th>basic</th>
+<th><em>Basic authorization</em></th>
+</tr>
+</thead><tbody>
+</tbody></table>
+<h1 id='enterprise-community-settings'>Enterprise Community Settings</h1><h2 id='api-frontend-v1-community_owner_settings'>/API/FRONTEND/V1/COMMUNITY_OWNER_SETTINGS</h2><h3 id='post'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> This endpoint is used by community owner for updating and creating new community_settings</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request'>HTTP Request</h4>
+<p><code>***POST*** /api/frontend/v1/community_owner_settings</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Authorization</td>
+<td>header</td>
+<td>Authorization token</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Value used to identify the community of the user</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>body</td>
+<td>Will contain keys and values that should be updated or created</td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
 <th>Description</th>
 </tr>
 </thead><tbody>
 <tr>
-<td>include_cats</td>
-<td>false</td>
-<td>If set to true, the result will also include cats.</td>
+<td>200</td>
+<td>Data update was successful</td>
 </tr>
 <tr>
-<td>available</td>
-<td>true</td>
-<td>If set to false, the result will include kittens that have already been adopted.</td>
+<td>401</td>
+<td>Unauthorized. The authentication failed</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Forbidden. You are not authorized to access this page.</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Community settings data could not be updated successful</td>
+</tr>
+</tbody></table>
+<h1 id='corporate-connector'>Corporate Connector</h1><h2 id='api-v1-deliver-invoice'>/API/V1/DELIVER/INVOICE</h2><h3 id='post-2'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Uploads a document sent form Up delivery</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-2'>HTTP Request</h4>
+<p><code>***POST*** /api/v1/deliver/invoice</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Authorization</td>
+<td>header</td>
+<td>value of auth header will be something like this: - Token token_value - where token_value will be provided for each environment in private</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>document</td>
+<td>formData</td>
+<td>File should have content-type application/xml, text/xml application/pdf or image. Attention only xml files will not require - document_data - the second file parameter describe below</td>
+<td>Yes</td>
+<td>file</td>
+</tr>
+<tr>
+<td>document_data</td>
+<td>formData</td>
+<td>File should have content-type application/json. Attention this file is used to map metadata for received files. The format is xml-json. <a target="_blank" href="/swagger/docs/document_data.json">Example file</a></td>
+<td>No</td>
+<td>file</td>
+</tr>
+<tr>
+<td>target</td>
+<td>formData</td>
+<td>ap_in is the only target value that is supported now</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>destination_uuid</td>
+<td>formData</td>
+<td>represents enterprise alert_key and is used to determine the enterprise</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>owner_name</td>
+<td>formData</td>
+<td>Represents the supplier name</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>owner_id</td>
+<td>formData</td>
+<td>represents the value of uniq company identifier for supplier and could be IBAN or UEN</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>owner_id_type</td>
+<td>formData</td>
+<td>represents type of identifier and could be IBAN or UEN and is used together with owner data to determine supplier</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>owner_email</td>
+<td>formData</td>
+<td>Represents the supplier email</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>cb_success</td>
+<td>formData</td>
+<td>url where success feedback will be posted</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>cb_error</td>
+<td>formData</td>
+<td>url where failure feedback will be posted</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>channel</td>
+<td>formData</td>
+<td></td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>document_uuid</td>
+<td>formData</td>
+<td>document uniq identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>source</td>
+<td>formData</td>
+<td>source name</td>
+<td>Yes</td>
+<td>string</td>
 </tr>
 </tbody></table>
 
-<aside class="success">
-Remember — a happy kitten is an authenticated kitten!
-</aside>
-<h2 id='get-a-specific-kitten'>Get a Specific Kitten</h2><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
+<p><strong>Responses</strong></p>
 
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="o">.</span><span class="n">kittens</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre><pre class="highlight shell tab-shell"><code>curl <span class="s2">"http://example.com/api/kittens/2"</span>
-  -H <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre><pre class="highlight javascript tab-javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">max</span> <span class="o">=</span> <span class="nx">api</span><span class="p">.</span><span class="nx">kittens</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
-</code></pre>
-<blockquote>
-<p>The above command returns JSON structured like this:</p>
-</blockquote>
-<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
-  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Max"</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unknown"</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre>
-<p>This endpoint retrieves a specific kitten.</p>
-
-<aside class="warning">Inside HTML code blocks like this one, you can't use Markdown, so use <code>&lt;code&gt;</code> blocks to denote code.</aside>
-<h3 id='http-request-2'>HTTP Request</h3>
-<p><code>GET http://example.com/kittens/&lt;ID&gt;</code></p>
-<h3 id='url-parameters'>URL Parameters</h3>
 <table><thead>
 <tr>
-<th>Parameter</th>
+<th>Code</th>
 <th>Description</th>
 </tr>
 </thead><tbody>
 <tr>
-<td>ID</td>
-<td>The ID of the kitten to retrieve</td>
+<td>200</td>
+<td>The Post of the document was correct</td>
+</tr>
+<tr>
+<td>400</td>
+<td>Bad request. Post could not be processed at the community</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Unauthorized. The authentication failed</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Returned if validations fail</td>
 </tr>
 </tbody></table>
-<h2 id='delete-a-specific-kitten'>Delete a Specific Kitten</h2><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
+<h1 id='micro-frontends'>Micro Frontends</h1><h2 id='api-frontend-v1-me-micro_frontends'>/API/FRONTEND/V1/ME/MICRO_FRONTENDS</h2><h3 id='get'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Retrieves available components for micro frontend rendering</p>
 
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">delete</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-3'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/micro_frontends</code> </p>
 
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="o">.</span><span class="n">kittens</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre><pre class="highlight shell tab-shell"><code>curl <span class="s2">"http://example.com/api/kittens/2"</span>
-  -X DELETE
-  -H <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre><pre class="highlight javascript tab-javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
+<p><strong>Parameters</strong></p>
 
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">max</span> <span class="o">=</span> <span class="nx">api</span><span class="p">.</span><span class="nx">kittens</span><span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
-</code></pre>
-<blockquote>
-<p>The above command returns JSON structured like this:</p>
-</blockquote>
-<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
-  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"deleted"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">":("</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre>
-<p>This endpoint deletes a specific kitten.</p>
-<h3 id='http-request-3'>HTTP Request</h3>
-<p><code>DELETE http://example.com/kittens/&lt;ID&gt;</code></p>
-<h3 id='url-parameters-2'>URL Parameters</h3>
 <table><thead>
 <tr>
-<th>Parameter</th>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>mf_action</td>
+<td>query</td>
+<td>Identifier for action to be rendered as a micro frontend</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
 <th>Description</th>
 </tr>
 </thead><tbody>
 <tr>
-<td>ID</td>
-<td>The ID of the kitten to delete</td>
+<td>200</td>
+<td>Succesful response</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Returned if the mf_action parameter not passed</td>
 </tr>
 </tbody></table>
+<h2 id='api-frontend-v1-me-micro_frontends-token'>/API/FRONTEND/V1/ME/MICRO_FRONTENDS/TOKEN</h2><h3 id='post-3'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Creates a token for a VAS</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-4'>HTTP Request</h4>
+<p><code>***POST*** /api/frontend/v1/me/micro_frontends/token</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>body</td>
+<td>body</td>
+<td>vas identifier for which token is to be created</td>
+<td>No</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>succesful response</td>
+</tr>
+<tr>
+<td>412</td>
+<td>Returned if a precondition is missing, like vas config</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Returned if requesting token from vas fails</td>
+</tr>
+</tbody></table>
+<h1 id='pay-incoming-documents'>Pay Incoming Documents</h1><h2 id='api-frontend-v1-me-enterprises-enterpriseid-archive-pay_incoming_documents-bulk-bulkaction'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/BULK/{BULKACTION}</h2><h3 id='post-4'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Triggers payment on incoming documents</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-5'>HTTP Request</h4>
+<p><code>***POST*** /api/frontend/v1/me/enterprises/{enterpriseId}/archive/pay_incoming_documents/bulk/{bulkAction}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>bulkAction</td>
+<td>path</td>
+<td>Bulk action name - for this context is should have value pay</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>selected_documents</td>
+<td>query</td>
+<td>up doc refs of selected documents</td>
+<td>Yes</td>
+<td>array</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Documents were sent to payment service</td>
+</tr>
+<tr>
+<td>400</td>
+<td>Bad request. Post could not be processed at the community</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Unauthorized. The authentication failed</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Returned if action is not supported, list of selected documents is empty or something went wrong returning the response</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-archive-pay_incoming_documents-validate'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/VALIDATE</h2><h3 id='post-5'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Validates payment data before payment is triggered on incoming documents</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-6'>HTTP Request</h4>
+<p><code>***POST*** /api/frontend/v1/me/enterprises/{enterpriseId}/archive/pay_incoming_documents/validate</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>selected_documents</td>
+<td>query</td>
+<td>up doc refs of selected documents that need to be validated</td>
+<td>Yes</td>
+<td>array</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>When validation was finished ok and all documents are valid the response will be an empty hash. When validation was finished ok and some documents have validation issues then a response like below will be received:</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Unauthorized. The authentication failed</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Returned if payment service is not setup correctly and operation is not allowed</td>
+</tr>
+</tbody></table>
+<h2 id='api-vas-v1-payments-caf_failure_callback'>/API/VAS/V1/PAYMENTS/CAF_FAILURE_CALLBACK</h2><h3 id='post-6'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Triggers update on incoming documents with initial data, after a failure payment callback is received</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-7'>HTTP Request</h4>
+<p><code>***POST*** /api/vas/v1/payments/caf_failure_callback</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>body</td>
+<td>body</td>
+<td>parameters sent via callback containing data to be updated</td>
+<td>No</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Data was received and update on documents was started. In this case the response will be {}</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Unauthorized. The authentication failed</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-archive-pay_incoming_documents-bank_statements'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/BANK_STATEMENTS</h2><h3 id='get-2'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Returns the list of statements between give start_date and end_date</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-8'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/archive/pay_incoming_documents/bank_statements</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>enterprise UUID</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>start_date</td>
+<td>query</td>
+<td>Start date of the statements. Format of the date should be YYYY-MM-DD</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>end_date</td>
+<td>query</td>
+<td>End date of the statements. Format of the date should be YYYY-MM-DD</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>List of statements between given date</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Error on retrieving list of statements. Could be due to parameters error or due to response error from OCS</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-archive-pay_incoming_documents-bank_statements-id'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/BANK_STATEMENTS/{ID}</h2><h3 id='get-3'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Returns the bank statement by id</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-9'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/archive/pay_incoming_documents/bank_statements/{id}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>enterprise UUID</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>id of the statement</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>format</td>
+<td>query</td>
+<td>format of the statement. Could have one of the following errors: CODA or CAMT-53</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Bank statement given by id</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Error on retrieving statement. Could be due to parameters error or due to response error from OCS</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-archive-pay_incoming_documents-bank_statements-bulk_delivery'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/BANK_STATEMENTS/BULK_DELIVERY</h2><h3 id='post-7'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Sends selected bank statements zip to email address</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-10'>HTTP Request</h4>
+<p><code>***POST*** /api/frontend/v1/me/enterprises/{enterpriseId}/archive/pay_incoming_documents/bank_statements/bulk_delivery</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>enterprise UUID</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td></td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns ok in case of success</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Error on retrieving statement. Could be due to parameters error or due to response error from OCS</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-archive-pay_incoming_documents-activity_log'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/ACTIVITY_LOG</h2><h3 id='get-4'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Returns a list of payment related events</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-11'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/archive/pay_incoming_documents/activity_log</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>The enterprise id.</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>from</td>
+<td>query</td>
+<td>The start date used to filter the list of events.</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>to</td>
+<td>query</td>
+<td>The end date used to filter the list of events.</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>user_email</td>
+<td>query</td>
+<td>Used to filter the list of events by user. If not provided all events are returned.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns the list in case of success.</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Error on retrieving the event list. Could be due to parameters error or due to feature toggle</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-value_added_services-online_collect_services-payment_accounts'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/VALUE_ADDED_SERVICES/ONLINE_COLLECT_SERVICES/PAYMENT_ACCOUNTS</h2><h3 id='get-5'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Returns a list of payment accounts that have been registered in PXG for the current enterprise</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-12'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/value_added_services/online_collect_services/payment_accounts</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>The enterprise id.</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns the list of account ibans and balances.</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Error on retrieving the event list. In case something fails when accessing PXG.</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-value_added_services-online_collect_services-payment_accounts_transactions'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/VALUE_ADDED_SERVICES/ONLINE_COLLECT_SERVICES/PAYMENT_ACCOUNTS_TRANSACTIONS</h2><h3 id='get-6'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Returns a list of transactions for the given iban</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-13'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/value_added_services/online_collect_services/payment_accounts_transactions</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>The enterprise id.</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>q[iban]</td>
+<td>query</td>
+<td>The payment account iban.</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>q[start_date]</td>
+<td>query</td>
+<td>The start date of the transaction range.</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>q[end_date]</td>
+<td>query</td>
+<td>The end date of the transaction range.</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>page</td>
+<td>query</td>
+<td>The page number of the transaction list.</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns the list of account ibans and balances.</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Error on retrieving the event list. In case something fails when accessing PXG or missing required param.</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-archive-pay_incoming_documents-activity_log-id'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAY_INCOMING_DOCUMENTS/ACTIVITY_LOG/{ID}</h2><h3 id='get-7'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Returns the event details associated with a payment event</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-14'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/archive/pay_incoming_documents/activity_log/{id}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>The enterprise id.</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>The requested event id.</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns the event details in case of success.</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Error on retrieving the event details. Due to feature toggle off.</td>
+</tr>
+</tbody></table>
+<h1 id='archive-connector'>Archive Connector</h1><h2 id='api-archive_connector-v1-archive-ap'>/API/ARCHIVE_CONNECTOR/V1/ARCHIVE/AP</h2><h3 id='post-8'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Uploads a document directly in archive if all necessary fields exist</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-15'>HTTP Request</h4>
+<p><code>***POST*** /api/archive_connector/v1/archive/ap</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>file</td>
+<td>formData</td>
+<td>File should have content-type application/xml, text/xml application/pdf or image. Attention only completed xml files will be archived directly, for the rest the user has to fill the missing data first</td>
+<td>Yes</td>
+<td>file</td>
+</tr>
+<tr>
+<td>lang</td>
+<td>formData</td>
+<td></td>
+<td>No</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>The Post of the document was correct</td>
+</tr>
+<tr>
+<td>400</td>
+<td>Bad request. Post could not be processed at the community</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Unauthorized. The authentication failed</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Not found. Called end point is not correct</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Returned if validations fail</td>
+</tr>
+</tbody></table>
+<h2 id='api-archive_connector-v1-archive-ar'>/API/ARCHIVE_CONNECTOR/V1/ARCHIVE/AR</h2><h3 id='post-9'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Uploads a document directly in archive if all necessary fields exist</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-16'>HTTP Request</h4>
+<p><code>***POST*** /api/archive_connector/v1/archive/ar</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>file</td>
+<td>formData</td>
+<td>File should have content-type application/xml or text/xml</td>
+<td>Yes</td>
+<td>file</td>
+</tr>
+<tr>
+<td>lang</td>
+<td>formData</td>
+<td>Language for showing the errors</td>
+<td>No</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>The Post of the document was correct</td>
+</tr>
+<tr>
+<td>400</td>
+<td>Bad request. Post could not be processed at the community</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Unauthorized. The authentication failed</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Not found. Called end point is not correct</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Returned if validations fail</td>
+</tr>
+</tbody></table>
+<h1 id='administrative-connector-enterprises'>Administrative Connector - enterprises</h1><h2 id='api-administrative_connector-enterprises'>/API/ADMINISTRATIVE_CONNECTOR/ENTERPRISES</h2><h3 id='post-10'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Creates an Enterprise</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-17'>HTTP Request</h4>
+<p><code>***POST*** /api/administrative_connector/enterprises</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>header</td>
+<td>Content Type</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td></td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>422</td>
+<td>returned if validations fail</td>
+</tr>
+</tbody></table>
+<h3 id='put'><strong><em>PUT</em></strong></h3>
+<p><strong>Summary:</strong> Updates an enterprise</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-18'>HTTP Request</h4>
+<p><code>***PUT*** /api/administrative_connector/enterprises</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>header</td>
+<td>Content Type</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td></td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Enterprise does not exists</td>
+</tr>
+<tr>
+<td>422</td>
+<td>returned if validations fail</td>
+</tr>
+</tbody></table>
+<h2 id='api-administrative_connector-enterprises-status'>/API/ADMINISTRATIVE_CONNECTOR/ENTERPRISES/STATUS</h2><h3 id='get-8'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Get status of an enterprise</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-19'>HTTP Request</h4>
+<p><code>***GET*** /api/administrative_connector/enterprises/status</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>header</td>
+<td>Content Type</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterprise_uuid</td>
+<td>query</td>
+<td>Enterprise UUID</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Unauthorized</td>
+</tr>
+<tr>
+<td>422</td>
+<td>When Enterprise is not found</td>
+</tr>
+</tbody></table>
+<h1 id='administrative-connector-users'>Administrative Connector - users</h1><h2 id='api-administrative_connector-users'>/API/ADMINISTRATIVE_CONNECTOR/USERS</h2><h3 id='post-11'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Creates an user</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-20'>HTTP Request</h4>
+<p><code>***POST*** /api/administrative_connector/users</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>header</td>
+<td>Content Type</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td></td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>422</td>
+<td>returned if validations fail</td>
+</tr>
+</tbody></table>
+<h3 id='put-2'><strong><em>PUT</em></strong></h3>
+<p><strong>Summary:</strong> Updates an user</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-21'>HTTP Request</h4>
+<p><code>***PUT*** /api/administrative_connector/users</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>header</td>
+<td>Content Type</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td></td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>404</td>
+<td>User does not exists</td>
+</tr>
+<tr>
+<td>422</td>
+<td>returned if validations fail</td>
+</tr>
+</tbody></table>
+<h2 id='api-administrative_connector-users-reinvite'>/API/ADMINISTRATIVE_CONNECTOR/USERS/REINVITE</h2><h3 id='post-12'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Reinvites an user</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-22'>HTTP Request</h4>
+<p><code>***POST*** /api/administrative_connector/users/reinvite</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>header</td>
+<td>Content Type</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td></td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>404</td>
+<td>User does not exists</td>
+</tr>
+<tr>
+<td>422</td>
+<td>returned if validations fail</td>
+</tr>
+</tbody></table>
+<h2 id='api-administrative_connector-users-remove_enterprise'>/API/ADMINISTRATIVE_CONNECTOR/USERS/REMOVE_ENTERPRISE</h2><h3 id='post-13'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Removes an enterprise from an user</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-23'>HTTP Request</h4>
+<p><code>***POST*** /api/administrative_connector/users/remove_enterprise</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>header</td>
+<td>Content Type</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td></td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>404</td>
+<td>User does not exists</td>
+</tr>
+<tr>
+<td>422</td>
+<td>returned if validations fail</td>
+</tr>
+</tbody></table>
+<h2 id='api-administrative_connector-users-status'>/API/ADMINISTRATIVE_CONNECTOR/USERS/STATUS</h2><h3 id='get-9'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Get status of an enterprise user</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-24'>HTTP Request</h4>
+<p><code>***GET*** /api/administrative_connector/users/status</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>header</td>
+<td>Content Type</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterprise_uuid</td>
+<td>query</td>
+<td>Enterprise UUID</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>email</td>
+<td>query</td>
+<td>Enterprise user email</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Unauthorized</td>
+</tr>
+<tr>
+<td>422</td>
+<td>When Enterprise or User are not found</td>
+</tr>
+</tbody></table>
+<h1 id='tasks-coala'>Tasks Coala</h1><h2 id='api-administrative_connector-enterprises-enterpriseid-tasks-id'>/API/ADMINISTRATIVE_CONNECTOR/ENTERPRISES/{ENTERPRISEID}/TASKS/{ID}</h2><h3 id='put-3'><strong><em>PUT</em></strong></h3>
+<p><strong>Summary:</strong> Update a task</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-25'>HTTP Request</h4>
+<p><code>***PUT*** /api/administrative_connector/enterprises/{enterpriseId}/tasks/{id}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>enterprise UUID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>task ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>header</td>
+<td>Content Type</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Accept</td>
+<td>header</td>
+<td>Accept</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td></td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Success</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Task/Enterprise not found</td>
+</tr>
+<tr>
+<td>422</td>
+<td>returned if some validations fail</td>
+</tr>
+<tr>
+<td>503</td>
+<td>Task service server error</td>
+</tr>
+</tbody></table>
+<h1 id='integrated-ocr'>Integrated OCR</h1><h2 id='api-frontend-v1-me-enterprises-enterpriseid-integrated_ocr_enabled'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INTEGRATED_OCR_ENABLED</h2><h3 id='get-10'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Provides a boolean that represents the availability of integrated ocr </p>
+
+<p><strong>Description:</strong> integrated ocr enabled</p>
+<h4 id='http-request-26'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/integrated_ocr_enabled</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns a json: { enabled: true/false }</td>
+</tr>
+<tr>
+<td>403</td>
+<td>When user does not have proper role</td>
+</tr>
+</tbody></table>
+<h1 id='accounts-payable-v1'>Accounts Payable v1</h1><h2 id='api-frontend-v1-me-enterprises-enterpriseid-incoming_documents-file_upload'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INCOMING_DOCUMENTS/FILE_UPLOAD</h2><h3 id='post-14'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Uploads a file on Accounts Payable</p>
+
+<p><strong>Description:</strong> authorize</p>
+<h4 id='http-request-27'>HTTP Request</h4>
+<p><code>***POST*** /api/frontend/v1/me/enterprises/{enterpriseId}/incoming_documents/file_upload</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>document_type</td>
+<td>formData</td>
+<td>Document type</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>payment_status</td>
+<td>formData</td>
+<td>Payment status</td>
+<td>No</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>The Post of the document was correct</td>
+</tr>
+<tr>
+<td>400</td>
+<td>Bad request. Post could not be processed at the community</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Unauthorized. The authentication failed</td>
+</tr>
+<tr>
+<td>403</td>
+<td>When user does not have proper role</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Not found. Called end point is not correct</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Unprocessable Entity. Returned if uploaded file type is not correct.</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-sepa-download-filename-path'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SEPA/DOWNLOAD/{FILENAME}/*PATH</h2><h3 id='get-11'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Allows download of SEPA SCT File</p>
+
+<p><strong>Description:</strong> authorize</p>
+<h4 id='http-request-28'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/sepa/download/{filename}/*path</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>filename</td>
+<td>path</td>
+<td>Filename</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>path</td>
+<td>path</td>
+<td>UPFile path</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns an xml</td>
+</tr>
+<tr>
+<td>403</td>
+<td>When user does not have proper role</td>
+</tr>
+<tr>
+<td>404</td>
+<td>When enterprise cannot be found</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-incoming_draft_documents-id'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INCOMING_DRAFT_DOCUMENTS/{ID}</h2><h3 id='get-12'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Returns document details (contains draft document data)</p>
+
+<p><strong>Description:</strong> authorize</p>
+<h4 id='http-request-29'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/incoming_draft_documents/{id}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Document id: up_doc_ref of draft document</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Document details</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>403</td>
+<td>When user does not have proper role</td>
+</tr>
+<tr>
+<td>404</td>
+<td>When document cannot be found</td>
+</tr>
+</tbody></table>
+<h3 id='put-4'><strong><em>PUT</em></strong></h3>
+<p><strong>Summary:</strong> Updates draft document and cmis document</p>
+
+<p><strong>Description:</strong> authorize</p>
+<h4 id='http-request-30'>HTTP Request</h4>
+<p><code>***PUT*** /api/frontend/v1/me/enterprises/{enterpriseId}/incoming_draft_documents/{id}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Document id: up_doc_ref of draft document</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td>Data about document</td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>In case document is not duplicated response will be {}</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>403</td>
+<td>When user does not have proper role</td>
+</tr>
+</tbody></table>
+<h3 id='delete'><strong><em>DELETE</em></strong></h3>
+<p><strong>Summary:</strong> Removes draft document and cmis document (if it is the case)</p>
+
+<p><strong>Description:</strong> authorize</p>
+<h4 id='http-request-31'>HTTP Request</h4>
+<p><code>***DELETE*** /api/frontend/v1/me/enterprises/{enterpriseId}/incoming_draft_documents/{id}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Document id: up_doc_ref of draft document</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>No Content</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>403</td>
+<td>When user does not have proper role</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-incoming_draft_documents-id-archive'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INCOMING_DRAFT_DOCUMENTS/{ID}/ARCHIVE</h2><h3 id='put-5'><strong><em>PUT</em></strong></h3>
+<p><strong>Summary:</strong> Sends a document with status to_be_archived into archive</p>
+
+<p><strong>Description:</strong> authorize</p>
+<h4 id='http-request-32'>HTTP Request</h4>
+<p><code>***PUT*** /api/frontend/v1/me/enterprises/{enterpriseId}/incoming_draft_documents/{id}/archive</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Document id: up_doc_ref of draft document</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td>Data about document</td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>In case document is not duplicated response will be {}</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>403</td>
+<td>When user does not have proper role</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-incoming_draft_documents-id-supplier'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INCOMING_DRAFT_DOCUMENTS/{ID}/SUPPLIER</h2><h3 id='get-13'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Returns supplier data that comes from mining the XML</p>
+
+<p><strong>Description:</strong> authorize</p>
+<h4 id='http-request-33'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/incoming_draft_documents/{id}/supplier</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Document id: up_doc_ref of draft document</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>In case data does not exist for the document, the response will contain a hash in the following format {&quot;supplier_fields&quot;: {}}</td>
+</tr>
+<tr>
+<td>403</td>
+<td>When user does not have proper role</td>
+</tr>
+<tr>
+<td>404</td>
+<td>When draft document cannot be found</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-incoming_documents-id'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/INCOMING_DOCUMENTS/{ID}</h2><h3 id='get-14'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Returns the document data from the long term storage for an archived document</p>
+
+<p><strong>Description:</strong> authorize</p>
+<h4 id='http-request-34'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/incoming_documents/{id}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Document id: up_doc_ref of draft document</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>CMIS Document Details</td>
+</tr>
+<tr>
+<td>403</td>
+<td>When user does not have proper role</td>
+</tr>
+<tr>
+<td>404</td>
+<td>When cmis document cannot be found</td>
+</tr>
+</tbody></table>
+<h1 id='accounts-payable-v2'>Accounts Payable v2</h1><h2 id='api-v2-com-enterprises-enterpriseid-documents'>/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/DOCUMENTS</h2><h3 id='get-15'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Returns a list of documents</p>
+
+<p><strong>Description:</strong> authorize</p>
+<h4 id='http-request-35'>HTTP Request</h4>
+<p><code>***GET*** /api/v2/com/enterprises/{enterpriseId}/documents</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>selected_documents</td>
+<td>query</td>
+<td>A list of up_doc_refs used to filter the result.</td>
+<td>No</td>
+<td>array</td>
+</tr>
+<tr>
+<td>page</td>
+<td>query</td>
+<td>The page number of the paginated result list.</td>
+<td>No</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>items_per_page</td>
+<td>query</td>
+<td>The number of items to be displayed per page.</td>
+<td>No</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>sort</td>
+<td>query</td>
+<td>The column name used to sort the results.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>direction</td>
+<td>query</td>
+<td>The sort direction.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>q[supplier_id]</td>
+<td>query</td>
+<td>The supplier id.</td>
+<td>No</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>q[supplier_company_name]</td>
+<td>query</td>
+<td>The supplier name.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>q[invoice_date_gteq]</td>
+<td>query</td>
+<td>The invoice date from. Format YYYY-MM-DD.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>q[invoice_date_lteq]</td>
+<td>query</td>
+<td>The invoice date to. Format YYYY-MM-DD.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>q[created_at_gteq]</td>
+<td>query</td>
+<td>The creation date from. Format YYYY-MM-DD.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>q[created_at_lteq]</td>
+<td>query</td>
+<td>The creation date to. Format YYYY-MM-DD.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>q[source]</td>
+<td>query</td>
+<td>The source from where the document originated.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>q[filename]</td>
+<td>query</td>
+<td>The original filename of the document.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>q[payment_due_date_gteq]</td>
+<td>query</td>
+<td>The payment due date from. Format YYYY-MM-DD.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>q[payment_due_date_lteq]</td>
+<td>query</td>
+<td>The payment due date to. Format YYYY-MM-DD.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>q[invoice_number]</td>
+<td>query</td>
+<td>The invoice number.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>q[invoice_type]</td>
+<td>query</td>
+<td>The invoice type.</td>
+<td>No</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>q[invoice_amount_gteq]</td>
+<td>query</td>
+<td>The invoice amount from.</td>
+<td>No</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>q[invoice_amount_lteq]</td>
+<td>query</td>
+<td>The invoice amount to.</td>
+<td>No</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>q[invoice_currency]</td>
+<td>query</td>
+<td>The invoice currency.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>q[display_status]</td>
+<td>query</td>
+<td>The display status of the document.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>q[accounting_status]</td>
+<td>query</td>
+<td>The status of the document if it was sent to accounting.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>include_paid</td>
+<td>query</td>
+<td>If true will return the documents with the payment status paid</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>include_supplier_ibans</td>
+<td>query</td>
+<td>If true will append the list of supplier ibans in the supplier section.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns list of documents</td>
+</tr>
+<tr>
+<td>403</td>
+<td>When user does not have proper role</td>
+</tr>
+<tr>
+<td>404</td>
+<td>When enterprise cannot be found</td>
+</tr>
+</tbody></table>
+<h2 id='api-v2-com-enterprises-enterpriseid-tasks-id-supplier'>/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/TASKS/{ID}/SUPPLIER</h2><h3 id='get-16'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Returns supplier data that comes from mining the XML</p>
+
+<p><strong>Description:</strong> authorize</p>
+<h4 id='http-request-36'>HTTP Request</h4>
+<p><code>***GET*** /api/v2/com/enterprises/{enterpriseId}/tasks/{id}/supplier</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Task ID</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>In case data does not exist for the task, the response will contain a hash in the following format {&quot;supplier_fields&quot;: {}}</td>
+</tr>
+<tr>
+<td>403</td>
+<td>When user does not have proper role</td>
+</tr>
+<tr>
+<td>404</td>
+<td>When task cannot be found</td>
+</tr>
+</tbody></table>
+<h2 id='api-v2-com-enterprises-enterpriseid-tasks-compact'>/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/TASKS/COMPACT</h2><h3 id='get-17'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Return a paginated, compacted list of tasks with the task ids and types</p>
+
+<p><strong>Description:</strong> authorize</p>
+<h4 id='http-request-37'>HTTP Request</h4>
+<p><code>***GET*** /api/v2/com/enterprises/{enterpriseId}/tasks/compact</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>page</td>
+<td>query</td>
+<td>page number</td>
+<td>No</td>
+<td>integer</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>In case the task data does not exist, the response will contain a hash in the following format {&quot;items&quot;: {}, items_per_page: 10, total_count: 0}</td>
+</tr>
+<tr>
+<td>403</td>
+<td>When user does not have proper role</td>
+</tr>
+</tbody></table>
+<h2 id='api-v2-com-enterprises-enterpriseid-documents-id'>/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/DOCUMENTS/{ID}</h2><h3 id='get-18'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Returns document details(contains task data)</p>
+
+<p><strong>Description:</strong> authorize</p>
+<h4 id='http-request-38'>HTTP Request</h4>
+<p><code>***GET*** /api/v2/com/enterprises/{enterpriseId}/documents/{id}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Task ID</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Document Details</td>
+</tr>
+<tr>
+<td>403</td>
+<td>When user does not have proper role</td>
+</tr>
+<tr>
+<td>404</td>
+<td>When draft or task cannot be found</td>
+</tr>
+</tbody></table>
+<h2 id='api-v2-com-enterprises-enterpriseid-multiple_files_intake'>/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/MULTIPLE_FILES_INTAKE</h2><h3 id='get-19'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Loads multiple files intakes list</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-39'>HTTP Request</h4>
+<p><code>***GET*** /api/v2/com/enterprises/{enterpriseId}/multiple_files_intake</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>sort</td>
+<td>query</td>
+<td>sort field name.</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>direction</td>
+<td>query</td>
+<td>direction of the sort(asc or desc).</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>page</td>
+<td>query</td>
+<td>page number</td>
+<td>No</td>
+<td>integer</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+</tbody></table>
+<h2 id='api-v2-com-enterprises-enterpriseid-multiple_files_intake-id'>/API/V2/COM/ENTERPRISES/{ENTERPRISEID}/MULTIPLE_FILES_INTAKE/{ID}</h2><h3 id='get-20'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Show details of specific filter task</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-40'>HTTP Request</h4>
+<p><code>***GET*** /api/v2/com/enterprises/{enterpriseId}/multiple_files_intake/{id}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Task ID</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>404</td>
+<td>When filter task cannot be found</td>
+</tr>
+</tbody></table>
+<h1 id='subscription-notifications'>Subscription Notifications</h1><h2 id='api-frontend-v1-subscription_notifications'>/API/FRONTEND/V1/SUBSCRIPTION_NOTIFICATIONS</h2><h3 id='post-15'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Submit a subscription notification to a tenant callback url</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-41'>HTTP Request</h4>
+<p><code>***POST*** /api/frontend/v1/subscription_notifications</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Authorization</td>
+<td>header</td>
+<td>Community setting value where the key is the one for purchase engine and the value is the tenant token from purchase engine (eg. Token token=1234)</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>params (type and payload)</td>
+<td>body</td>
+<td></td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Unauthorized http token request</td>
+</tr>
+<tr>
+<td>412</td>
+<td>If subscription_enabled setting is not set to true</td>
+</tr>
+</tbody></table>
+<h1 id='subscriptions'>Subscriptions</h1><h2 id='api-frontend-v1-me-enterprises-enterpriseid-subscriptions-active'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/ACTIVE</h2><h3 id='get-21'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> View active subscriptions on an enterprise</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-42'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/subscriptions/active</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>412</td>
+<td>If subscription_enabled setting is not set to true</td>
+</tr>
+<tr>
+<td>502</td>
+<td>Billing Engine is down</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-subscriptions-active-features-featuretype'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/ACTIVE/FEATURES/{FEATURETYPE}</h2><h3 id='get-22'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Check active features on enterprise subscriptions</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-43'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/subscriptions/active/features/{featureType}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>featureType</td>
+<td>path</td>
+<td>Feature type</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>412</td>
+<td>If subscription_enabled setting is not set to true</td>
+</tr>
+<tr>
+<td>502</td>
+<td>Billing Engine is down</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-subscriptions-active-all_features'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/ACTIVE/ALL_FEATURES</h2><h3 id='get-23'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Check requested features on enterprise subscriptions</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-44'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/subscriptions/active/all_features</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>features</td>
+<td>query</td>
+<td>Checked features</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>412</td>
+<td>If subscription_enabled setting is not set to true</td>
+</tr>
+<tr>
+<td>502</td>
+<td>Billing Engine is down</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-subscriptions-active-bundle_usage'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/ACTIVE/BUNDLE_USAGE</h2><h3 id='get-24'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Get the accumulated count of used/remaining/total items for all bundles</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-45'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/subscriptions/active/bundle_usage</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>name</td>
+<td>query</td>
+<td>Filter usages by a specific bundle category name. A few examples are archived_documents, mandates, print_and_post, etc</td>
+<td>No</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>412</td>
+<td>If subscription_enabled setting is not set to true</td>
+</tr>
+<tr>
+<td>422</td>
+<td>If filter is invalid</td>
+</tr>
+<tr>
+<td>502</td>
+<td>Billing Engine is down</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-subscriptions-index_by_group'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/INDEX_BY_GROUP</h2><h3 id='get-25'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> View grouped subscriptions on an enterprise</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-46'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/subscriptions/index_by_group</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>412</td>
+<td>If subscription_enabled setting is not set to true</td>
+</tr>
+<tr>
+<td>502</td>
+<td>Billing Engine is down</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-subscriptions'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS</h2><h3 id='post-16'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Activate a subscription for an enterprise</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-47'>HTTP Request</h4>
+<p><code>***POST*** /api/frontend/v1/me/enterprises/{enterpriseId}/subscriptions</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td></td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td></td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>201</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>412</td>
+<td>If subscription_enabled setting is not set to true</td>
+</tr>
+<tr>
+<td>422</td>
+<td>When subscription could not be created</td>
+</tr>
+<tr>
+<td>502</td>
+<td>Billing Engine is down</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-subscriptions-cancel'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/SUBSCRIPTIONS/CANCEL</h2><h3 id='put-6'><strong><em>PUT</em></strong></h3>
+<p><strong>Summary:</strong> Cancel subscription on an enterprise</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-48'>HTTP Request</h4>
+<p><code>***PUT*** /api/frontend/v1/me/enterprises/{enterpriseId}/subscriptions/cancel</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>204</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>412</td>
+<td>If subscription_enabled setting is not set to true</td>
+</tr>
+<tr>
+<td>502</td>
+<td>Billing Engine is down</td>
+</tr>
+</tbody></table>
+<h1 id='translations'>Translations</h1><h2 id='i18n-locale'>/I18N/{LOCALE}</h2><h3 id='get-26'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> View translations</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-49'>HTTP Request</h4>
+<p><code>***GET*** /i18n/{locale}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>locale</td>
+<td>path</td>
+<td>Language identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Deeply nested JSON object with translation scope names as keys</td>
+</tr>
+<tr>
+<td>404</td>
+<td>locale not found</td>
+</tr>
+</tbody></table>
+<h1 id='enterprises'>Enterprises</h1><h2 id='api-frontend-v1-me-enterprises-enterpriseid-permissions'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/PERMISSIONS</h2><h3 id='get-27'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Get permissions</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-50'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/permissions</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td></td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td></td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-tasks-id'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/TASKS/{ID}</h2><h3 id='put-7'><strong><em>PUT</em></strong></h3>
+<p><strong>Summary:</strong> Perform actions on a task</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-51'>HTTP Request</h4>
+<p><code>***PUT*** /api/frontend/v1/me/enterprises/{enterpriseId}/tasks/{id}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td></td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td></td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td></td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td>Task parameters</td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+</tbody></table>
+<h1 id='archive-outgoing'>Archive Outgoing</h1><h2 id='api-frontend-v1-me-enterprises-enterpriseid-archive-outgoing-export'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/OUTGOING/EXPORT</h2><h3 id='post-17'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> This resource allows downloading a xls with data from outgoing archived paid documents, fetched from cmis by up_doc_ref.</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-52'>HTTP Request</h4>
+<p><code>***POST*** /api/frontend/v1/me/enterprises/{enterpriseId}/archive/outgoing/export</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td></td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td>Array of up_doc_refs</td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-outgoing_documents-id-archive'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/OUTGOING_DOCUMENTS/{ID}/ARCHIVE</h2><h3 id='put-8'><strong><em>PUT</em></strong></h3>
+<p><strong>Summary:</strong> This resource allows the archiving of a document that is in the status draft (unconfirmed).</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-53'>HTTP Request</h4>
+<p><code>***PUT*** /api/frontend/v1/me/enterprises/{enterpriseId}/outgoing_documents/{id}/archive</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td></td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Up Doc Ref</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td>Array of up_doc_refs</td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>403</td>
+<td>When user does not have proper role</td>
+</tr>
+</tbody></table>
+<h1 id='sessions'>Sessions</h1><h2 id='api-frontend-v1-users-login'>/API/FRONTEND/V1/USERS/LOGIN</h2><h3 id='post-18'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Create a new token</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-54'>HTTP Request</h4>
+<p><code>***POST*** /api/frontend/v1/users/login</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td></td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td>User object for login</td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Succesful operation</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Returned if bad Identification value, or if wrong username/password combination</td>
+</tr>
+<tr>
+<td>451</td>
+<td>If user did not have GDPR activated</td>
+</tr>
+</tbody></table>
+<h1 id='enterprises-settings'>Enterprises Settings</h1><h2 id='api-frontend-v1-me-settings-enterprises-enterpriseid-payment_services'>/API/FRONTEND/V1/ME/SETTINGS/ENTERPRISES/{ENTERPRISEID}/PAYMENT_SERVICES</h2><h3 id='get-28'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> List payment settings for the current enterprise</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-55'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/settings/enterprises/{enterpriseId}/payment_services</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>403</td>
+<td>OCS VAS not active</td>
+</tr>
+</tbody></table>
+<h3 id='put-9'><strong><em>PUT</em></strong></h3>
+<p><strong>Summary:</strong> Update payment settings for OCS VAS</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-56'>HTTP Request</h4>
+<p><code>***PUT*** /api/frontend/v1/me/settings/enterprises/{enterpriseId}/payment_services</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td></td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h1 id='enterprises-frontend'>Enterprises frontend</h1><h2 id='api-frontend-v1-me-enterprises-id-update_archive_only_enterprise'>/API/FRONTEND/V1/ME/ENTERPRISES/{ID}/UPDATE_ARCHIVE_ONLY_ENTERPRISE</h2><h3 id='put-10'><strong><em>PUT</em></strong></h3>
+<p><strong>Summary:</strong> Updates status of archive_only enterprise</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-57'>HTTP Request</h4>
+<p><code>***PUT*** /api/frontend/v1/me/enterprises/{id}/update_archive_only_enterprise</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>header</td>
+<td>Content Type</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Authorization</td>
+<td>header</td>
+<td>Basic encoded_username_and_password</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td></td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Forbidden</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Not Found</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Unprocessable Entity</td>
+</tr>
+</tbody></table>
+<h1 id='toast-notifications-frontend'>Toast Notifications Frontend</h1><h2 id='api-frontend-v1-me-toast_notifications'>/API/FRONTEND/V1/ME/TOAST_NOTIFICATIONS</h2><h3 id='get-29'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> List all the notifications that should be displayed to the users</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-58'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/toast_notifications</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>header</td>
+<td>Content Type</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Accept</td>
+<td>header</td>
+<td>Accept</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h1 id='toast-notifications-coala'>Toast Notifications Coala</h1><h2 id='api-administrative_connector-toast_notifications'>/API/ADMINISTRATIVE_CONNECTOR/TOAST_NOTIFICATIONS</h2><h3 id='get-30'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> List all the notifications in coala</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-59'>HTTP Request</h4>
+<p><code>***GET*** /api/administrative_connector/toast_notifications</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>header</td>
+<td>Content Type</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Accept</td>
+<td>header</td>
+<td>Accept</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h3 id='post-19'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Create a toast notification</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-60'>HTTP Request</h4>
+<p><code>***POST*** /api/administrative_connector/toast_notifications</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>header</td>
+<td>Content Type</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Accept</td>
+<td>header</td>
+<td>Accept</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td></td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h2 id='api-administrative_connector-toast_notifications-id'>/API/ADMINISTRATIVE_CONNECTOR/TOAST_NOTIFICATIONS/{ID}</h2><h3 id='get-31'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Show the details of a toast notification</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-61'>HTTP Request</h4>
+<p><code>***GET*** /api/administrative_connector/toast_notifications/{id}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Toast ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>header</td>
+<td>Content Type</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Accept</td>
+<td>header</td>
+<td>Accept</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h3 id='put-11'><strong><em>PUT</em></strong></h3>
+<p><strong>Summary:</strong> Update a toast notification</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-62'>HTTP Request</h4>
+<p><code>***PUT*** /api/administrative_connector/toast_notifications/{id}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Toast ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>header</td>
+<td>Content Type</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Accept</td>
+<td>header</td>
+<td>Accept</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td></td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>204</td>
+<td>No Content</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h3 id='delete-2'><strong><em>DELETE</em></strong></h3>
+<p><strong>Summary:</strong> Delete a toast notification</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-63'>HTTP Request</h4>
+<p><code>***DELETE*** /api/administrative_connector/toast_notifications/{id}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Toast ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>header</td>
+<td>Content Type</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Accept</td>
+<td>header</td>
+<td>Accept</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>204</td>
+<td>No Content</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h1 id='enterprises-api'>Enterprises API</h1><h2 id='api-vas-v1-enterprises-id'>/API/VAS/V1/ENTERPRISES/{ID}</h2><h3 id='get-32'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Retrieve enterprise data based on VAS config</p>
+<h4 id='http-request-64'>HTTP Request</h4>
+<p><code>***GET*** /api/vas/v1/enterprises/{id}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Authorization</td>
+<td>header</td>
+<td>Basic encoded_username_and_password</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Enterprise UUID</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>ok</td>
+</tr>
+</tbody></table>
+<h3 id='put-12'><strong><em>PUT</em></strong></h3>
+<p><strong>Summary:</strong> Update an enterprise details by a VAS</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-65'>HTTP Request</h4>
+<p><code>***PUT*** /api/vas/v1/enterprises/{id}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Authorization</td>
+<td>header</td>
+<td>Basic encoded_username_and_password</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Enterprise UUID</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td></td>
+<td>No</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>enterprise was updated</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>404</td>
+<td>enterprise was not found</td>
+</tr>
+</tbody></table>
+<h2 id='api-vas-v1-enterprises-id-documents-filter'>/API/VAS/V1/ENTERPRISES/{ID}/DOCUMENTS/FILTER</h2><h3 id='post-20'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Retrieve enterprise documents based on VAS config</p>
+<h4 id='http-request-66'>HTTP Request</h4>
+<p><code>***POST*** /api/vas/v1/enterprises/{id}/documents/filter</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Authorization</td>
+<td>header</td>
+<td>Basic encoded_username_and_password</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Enterprise UUID</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>per_page</td>
+<td>query</td>
+<td>Maximum of items returned</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td></td>
+<td>No</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>documents were retrieved</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h2 id='api-vas-v1-enterprises-id-documents-document_id-reconcile'>/API/VAS/V1/ENTERPRISES/{ID}/DOCUMENTS/{DOCUMENT_ID}/RECONCILE</h2><h3 id='put-13'><strong><em>PUT</em></strong></h3>
+<p><strong>Summary:</strong> Reconcile a document of an enterprise</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-67'>HTTP Request</h4>
+<p><code>***PUT*** /api/vas/v1/enterprises/{id}/documents/{document_id}/reconcile</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Authorization</td>
+<td>header</td>
+<td>Basic encoded_username_and_password</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>Enterprise UUID</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>document_id</td>
+<td>path</td>
+<td>Document up_doc_ref</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>payment_amount</td>
+<td>query</td>
+<td>Payment amout</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>payment_currency</td>
+<td>query</td>
+<td>Payment currency</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>payment_date</td>
+<td>query</td>
+<td>payment date</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>allow_over_payment</td>
+<td>query</td>
+<td>Document is allowed to be over paid</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Document {document_id} processed successfully.</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>422</td>
+<td>It will contains the errors list</td>
+</tr>
+</tbody></table>
+<h1 id='draft-document-tasks-controller'>Draft Document Tasks Controller</h1><h2 id='api-vas-v1-draft_document_tasks-taskid'>/API/VAS/V1/DRAFT_DOCUMENT_TASKS/{TASKID}</h2><h3 id='delete-3'><strong><em>DELETE</em></strong></h3>
+<p><strong>Summary:</strong> Deletes draft_document relations for a specific task</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-68'>HTTP Request</h4>
+<p><code>***DELETE*** /api/vas/v1/draft_document_tasks/{taskId}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Authorization</td>
+<td>header</td>
+<td>Basic encoded_username_and_password</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>taskId</td>
+<td>path</td>
+<td>Task ID</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>draft_document_tasks was cleaned for the specified task</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>404</td>
+<td>No task identifier was provided</td>
+</tr>
+</tbody></table>
+<h1 id='show-vas-status'>Show VAS Status</h1><h2 id='api-vas-v1-communities-communityid-show_vas_status'>/API/VAS/V1/COMMUNITIES/{COMMUNITYID}/SHOW_VAS_STATUS</h2><h3 id='get-33'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Show the VAS status(active/inactive) for the requested VAS</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-69'>HTTP Request</h4>
+<p><code>***GET*** /api/vas/v1/communities/{communityId}/show_vas_status</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>communityId</td>
+<td>path</td>
+<td>Community identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>identifier</td>
+<td>query</td>
+<td>Vas identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns the status of the requested VAS</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h1 id='paymail-direct'>Paymail Direct</h1><h2 id='api-frontend-v1-me-enterprises-enterpriseid-paymail_direct-select_all'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/PAYMAIL_DIRECT/SELECT_ALL</h2><h3 id='get-34'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Retrieves up doc refs, per available action</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-70'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/paymail_direct/select_all</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>page</td>
+<td>query</td>
+<td>page</td>
+<td>No</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>sort</td>
+<td>query</td>
+<td>sort column</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>direction</td>
+<td>query</td>
+<td>sort direction</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>fts</td>
+<td>query</td>
+<td>full text search</td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>selected_documents</td>
+<td>query</td>
+<td>up doc refs of selected documents</td>
+<td>No</td>
+<td>array</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>available paymail direct documents per each available action</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-paymail_direct-id-mark_as_will_not_be_paid'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/PAYMAIL_DIRECT/{ID}/MARK_AS_WILL_NOT_BE_PAID</h2><h3 id='post-21'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Marks a Paymail Direct as will not be paid</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-71'>HTTP Request</h4>
+<p><code>***POST*** /api/frontend/v1/me/enterprises/{enterpriseId}/paymail_direct/{id}/mark_as_will_not_be_paid</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>paymail direct up_doc_ref</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>The Paymail Direct has been marked as will not be paid</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h2 id='api-frontend-v1-me-enterprises-enterpriseid-paymail_direct-bulk-download_xls'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/PAYMAIL_DIRECT/BULK/DOWNLOAD_XLS</h2><h3 id='post-22'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Retrieves an xls with the requested Paymail docs</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-72'>HTTP Request</h4>
+<p><code>***POST*** /api/frontend/v1/me/enterprises/{enterpriseId}/paymail_direct/bulk/download_xls</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>selected_documents</td>
+<td>query</td>
+<td>up doc refs of selected documents</td>
+<td>No</td>
+<td>array</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>csv file with requested documents</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h1 id='paymail-direct-archive'>Paymail Direct Archive</h1><h2 id='api-frontend-v1-me-enterprises-enterpriseid-archive-paymail_direct-bulk-download_xls'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/ARCHIVE/PAYMAIL_DIRECT/BULK/DOWNLOAD_XLS</h2><h3 id='post-23'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Retrieves an xls with the requested Paymail docs</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-73'>HTTP Request</h4>
+<p><code>***POST*** /api/frontend/v1/me/enterprises/{enterpriseId}/archive/paymail_direct/bulk/download_xls</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Identification</td>
+<td>header</td>
+<td>Community Identifier</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>selected_documents</td>
+<td>query</td>
+<td>up doc refs of selected documents</td>
+<td>No</td>
+<td>array</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>csv file with requested documents</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h1 id='accounts-receivable'>Accounts Receivable</h1><h2 id='api-frontend-v1-me-enterprises-enterpriseid-outgoing_documents-bulk-archive_outgoing_documents'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/OUTGOING_DOCUMENTS/BULK/ARCHIVE_OUTGOING_DOCUMENTS</h2><h3 id='post-24'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> This resource allows the bulk archiving of draft documents.</p>
+
+<p><strong>Description:</strong> authorize</p>
+<h4 id='http-request-74'>HTTP Request</h4>
+<p><code>***POST*** /api/frontend/v1/me/enterprises/{enterpriseId}/outgoing_documents/bulk/archive_outgoing_documents</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>body</td>
+<td>body</td>
+<td></td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns succesful meesage</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>403</td>
+<td>When user does not have proper role</td>
+</tr>
+</tbody></table>
+<h1 id='totals'>Totals</h1><h2 id='api-frontend-v1-me-enterprises-enterpriseid-totals'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/TOTALS</h2><h3 id='get-35'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Determines the total number of incoming and outgoing documents and number of tasks</p>
+
+<p><strong>Description:</strong> authorize</p>
+<h4 id='http-request-75'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/totals</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns total numbers of documents and tasks</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h1 id='document-center'>Document Center</h1><h2 id='api-frontend-v1-me-enterprises-enterpriseid-document_center-tasks'>/API/FRONTEND/V1/ME/ENTERPRISES/{ENTERPRISEID}/DOCUMENT_CENTER/TASKS</h2><h3 id='get-36'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Get the document center tasks for an enterprise</p>
+
+<p><strong>Description:</strong> authorize</p>
+<h4 id='http-request-76'>HTTP Request</h4>
+<p><code>***GET*** /api/frontend/v1/me/enterprises/{enterpriseId}/document_center/tasks</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>enterpriseId</td>
+<td>path</td>
+<td>Enterprise ID</td>
+<td>Yes</td>
+<td>integer</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns list of document center tasks for an enterprise</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h1 id='application-bookmarks'>Application Bookmarks</h1><h2 id='api-v1-bookmarks'>/API/V1/BOOKMARKS</h2><h3 id='get-37'><strong><em>GET</em></strong></h3>
+<p><strong>Summary:</strong> Get the list of bookmarked applications for the current community</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-77'>HTTP Request</h4>
+<p><code>***GET*** /api/v1/bookmarks</code> </p>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns list of bookmarked applications and their logo</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h3 id='post-25'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> Create a bookmark of an application.</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-78'>HTTP Request</h4>
+<p><code>***POST*** /api/v1/bookmarks</code> </p>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns the attributes of the created bookmark.</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h3 id='put-14'><strong><em>PUT</em></strong></h3>
+<p><strong>Summary:</strong> Update an existing bookmark of an application.</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-79'>HTTP Request</h4>
+<p><code>***PUT*** /api/v1/bookmarks</code> </p>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns the attributes of the updated bookmark.</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h3 id='delete-4'><strong><em>DELETE</em></strong></h3>
+<p><strong>Summary:</strong> Remove an existing bookmark of an application.</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-80'>HTTP Request</h4>
+<p><code>***DELETE*** /api/v1/bookmarks</code> </p>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns an empty body.</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h2 id='api-v1-bookmarks-sort'>/API/V1/BOOKMARKS/SORT</h2><h3 id='post-26'><strong><em>POST</em></strong></h3>
+<p><strong>Summary:</strong> update the positions of the existing bookmarks.</p>
+
+<p><strong>Description:</strong> </p>
+<h4 id='http-request-81'>HTTP Request</h4>
+<p><code>***POST*** /api/v1/bookmarks/sort</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>body</td>
+<td>body</td>
+<td></td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns list of bookmarked applications and their logo.</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+</tr>
+</tbody></table>
+<h1 id='universal-connector'>Universal Connector</h1><h2 id='api-universal_connector-v1-uc-ap'>/api/universal_connector/v1/uc/ap</h2><h3 id='post-27'><strong><em>POST</em></strong></h3><pre class="highlight shell tab-shell"><code>curl -X POST <span class="s2">"https://community-api-dev-1-2.nxt.uat.unifiedpost.com/api/universal_connector/v1/uc/ap"</span> 
+-H <span class="s2">"accept: application/json"</span> -H <span class="s2">"Username: username"</span> -H <span class="s2">"Password: password"</span> 
+-H <span class="s2">"Content-Type: multipart/form-data"</span> -F <span class="s2">"file=@File.pdf;type=application/pdf"</span>
+</code></pre>
+<p><strong>Summary:</strong> Uploads file through external source in AP</p>
+
+<p><strong>Description:</strong> 
+<br />
+&nbsp;1. Preconditions: <br />
+ &nbsp;&nbsp;a. Go to settings -&gt; Incoming -&gt; section: IMPORT SUPPLIER INVOICES and enable: Make available through the HTTP connector = ON =&gt; you will get a key that you will need to use. Save changes<br />
+ &nbsp;&nbsp;b. Take the community push_user that you received <br />
+  <br />
+<img src="images/screenshot1-44610974.png"
+     alt="Screenshot1"
+     style="float: left;" />
+ <br />
+&nbsp;2. Use PostMan for sending the incoming invoice<br />
+&nbsp;&nbsp;a.Open PostMan and make a POST request to the URL of your community for AP<br />
+&nbsp;&nbsp;b. Authorization: <br />
+&nbsp;&nbsp;&nbsp;Username: use the push_user of your community<br />
+&nbsp;&nbsp;&nbsp;Password: use the unique key<br />
+<br />
+<img src="images/screenshot2-27924a7c.png"
+     alt="Screenshot2"
+     style="float: left;" />
+ <br />
+ &nbsp;&nbsp;c. Body: <br />
+ &nbsp;&nbsp;&nbsp;file - choose the type File and add the name file, upload the file<br /><br />
+ &nbsp;&nbsp; Click on send.<br />
+ <br />
+ <img src="images/screenshot3-7c41575d.png"
+      alt="Screenshot2"
+      style="float: left;" />
+  <br /> <br /></p>
+<h4 id='http-request-82'>HTTP Request</h4>
+<p><code>POST api/universal_connector/v1/uc/ap</code> <ID></p>
+<h4 id='url-parameters'>URL Parameters</h4>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Username</td>
+<td>header</td>
+<td>The push_user of your community</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Password</td>
+<td>header</td>
+<td>API key</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>file</td>
+<td>formData</td>
+<td>Upload file. File should have content-type application/xml, text/xml, application/pdf or image</td>
+<td>Yes</td>
+<td>file</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns uploaded file.</td>
+</tr>
+<tr>
+<td>400</td>
+<td>Bad request. Post could not be processed at the community. Parameter file is required</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Unauthorized. Invalid username or API key</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Endpoint Not Found</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Unprocessable entity. The file is too large. The maximum size of an attachment is the one allowed by your community.</td>
+</tr>
+</tbody></table>
+<h2 id='api-universal_connector-v1-uc-ar'>/api/universal_connector/v1/uc/ar</h2><h3 id='post-28'><strong><em>POST</em></strong></h3><pre class="highlight shell tab-shell"><code>curl -X POST <span class="s2">"https://community-api-dev-1-2.nxt.uat.unifiedpost.com/api/universal_connector/v1/uc/ar"</span> 
+-H <span class="s2">"accept: application/json"</span> -H <span class="s2">"Username: username"</span> -H <span class="s2">"Password: password"</span> 
+-H <span class="s2">"Content-Type: multipart/form-data"</span> -F <span class="s2">"file=@File.pdf;type=application/pdf"</span>
+</code></pre>
+<p><strong>Summary:</strong> Uploads file through external source in AR</p>
+
+<p><strong>Description:</strong> 
+<br />
+&nbsp;1. Preconditions: <br />
+&nbsp;&nbsp;&nbsp;a. Go to Settings -&gt; Outgoing -&gt; section: IMPORT SALES and enable: Connect your accounting software = ON
+&nbsp;&nbsp;&nbsp;=&gt; you will get a key that you will use. Save changes<br />
+&nbsp;&nbsp;&nbsp;b. Take the community push_user that you received <br />
+  <br />
+<img src="images/screenshot4-f0deb248.png"
+     alt="Screenshot4"
+     style="float: left;" />
+ <br />
+&nbsp;2. Use PostMan for sending the incoming invoice<br />
+&nbsp;&nbsp;a.Open PostMan and make a POST request to the URL of your community for AR<br />
+&nbsp;&nbsp;b. Authorization: <br />
+&nbsp;&nbsp;&nbsp;Username: use the push_user of your community<br />
+&nbsp;&nbsp;&nbsp;Password: use the unique key<br />
+<br />
+<img src="images/screenshot5-78dda891.png"
+     alt="Screenshot5"
+     style="float: left;" />
+ <br />
+ &nbsp;&nbsp;c. Body: <br />
+ &nbsp;&nbsp;&nbsp;file - choose the type File and add the name file, upload the file<br /><br />
+ &nbsp;&nbsp; Click on send.<br />
+ <br />
+ <img src="images/screenshot6-ab1341a6.png"
+      alt="Screenshot6"
+      style="float: left;" />
+  <br /> <br /></p>
+<h4 id='http-request-83'>HTTP Request</h4>
+<p><code>POST /api/universal_connector/v1/uc/ar</code> <ID></p>
+<h4 id='url-parameters-2'>URL Parameters</h4>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Username</td>
+<td>header</td>
+<td>The push_user of your community</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>Password</td>
+<td>header</td>
+<td>API key</td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>file</td>
+<td>formData</td>
+<td>Upload file. File should have content-type application/xml, text/xml, application/pdf or image</td>
+<td>Yes</td>
+<td>file</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Returns uploaded file.</td>
+</tr>
+<tr>
+<td>400</td>
+<td>Bad request. Post could not be processed at the community. Parameter file is required</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Unauthorized. Invalid username or API key</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Endpoint Not Found</td>
+</tr>
+<tr>
+<td>422</td>
+<td>Unprocessable entity. The file is too large. The maximum size of an attachment is the one allowed by your community.</td>
+</tr>
+</tbody></table>
+
+<!-- Converted with the swagger-to-slate https://github.com/lavkumarv/swagger-to-slate -->
 <h1 id='errors'>Errors</h1>
 <aside class="notice">
 This error section is stored in a separate file in <code>includes/_errors.md</code>. Slate allows you to optionally separate out your docs into many files...just save them to the <code>includes</code> folder and add them to the top of your <code>index.md</code>'s frontmatter. Files are included in the order listed.
@@ -494,10 +5881,7 @@ This error section is stored in a separate file in <code>includes/_errors.md</co
       </div>
       <div class="dark-box">
           <div class="lang-selector">
-                <a href="#" data-language-name="shell">shell</a>
-                <a href="#" data-language-name="ruby">ruby</a>
-                <a href="#" data-language-name="python">python</a>
-                <a href="#" data-language-name="javascript">javascript</a>
+                <a href="#" data-language-name="shell">cURL</a>
           </div>
       </div>
     </div>
